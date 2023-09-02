@@ -9,8 +9,8 @@ servers:
 paths:
   /pets:
     get:
-      summary: List all pets
-      operationId: listPets
+      summary: List all technical writers
+      operationId: listTWs
       tags:
         - pets
       parameters:
