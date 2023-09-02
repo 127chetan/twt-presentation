@@ -3,7 +3,6 @@ Test GitHub repository to demo docs-as-code workflows with OpenAPI documentation
 
 ## Prerequisites:
 - VSCode
-- NPM
 - Create a GitHub account
 - Create a GitHub repository
 - Set up GitHub Actions in the repository
