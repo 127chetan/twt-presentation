@@ -4,22 +4,19 @@ Test GitHub repository to demo docs-as-code workflows with OpenAPI documentation
 ## Prerequisites:
 - VSCode
 - NPM
-- GitHub account
-- GitHub repository
-- Setup GitHub Actions
-  1. Click **Settings** (at the top-right) in your created repository.
-  2. Under **Code and automation** on the left, click **Pages**.
-  3. Under **Build and deployment** for **GitHub Pages**, set the source as GitHub Actions.
-  4. Click **Configure** for Static HTML. At preset static.yml file is created.
-  5. Click **Commit changes**. Each time the OpenAPI file is updated and the repository is updated, GitHub Actions automatically builds the website.
-- Installing redoc-cli: https://redocly.com/docs/cli/installation/#install-globally
-- Using the redocly command: https://redocly.com/docs/cli/commands/build-docs/#usage
-- Test petstore.yaml file: https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml
+- Create a GitHub account
+- Create a GitHub repository
+- Set up GitHub Actions in the repository
+- Starter OpenAPI spec for testing: https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml
 
-## Steps to build your workflow
+## Steps to set up your own repository and GitHub Actions
 1. Create a new GitHub repository.
-2. Create a test-petstore.yaml file.
-3. Clone the repository in VSCode.
-4. Build HTML output from the YAML file: `redocly build-docs test-petstore.yaml`
-5. Rename the HTML output to index.html: `mv redoc-static.html index.html`
-6. Comment and push your changes to the repository. GitHub Actions automatically builds a website.
+2. Create a test-petstore.yaml file in the repository. Copy the contents from https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml as an example.
+3. Set up GitHub Actions in the repository.
+    1. Click **Settings** (at the top-right) in your created repository.
+    2. Under **Code and automation** on the left, click **Pages**.
+    3. Under **Build and deployment** for **GitHub Pages**, set the source as GitHub Actions.
+    4. Click **Configure** for Static HTML. A preset static.yml file is created.
+    5. Click **Commit changes**.
+    6. Copy the static.yml contents from this twt-presentation repository to your repository and commit your changes.
+4. Clone the repository in VSCode. Each time you save changes to your OpenAPI yaml file and push your changes to GitHub, GitHub Actions automatically builds API documentation output.
