@@ -20,6 +20,6 @@ Test GitHub repository to demo docs-as-code workflows with OpenAPI documentation
 1. Create a new GitHub repository.
 2. Create a test-petstore.yaml file.
 3. Clone the repository in VSCode.
-4. Build HTML output from the YAML file: redocly build-docs test-petstore.yaml
-5. Rename the HTML output to index.html: mv redoc-static.html index.html
+4. Build HTML output from the YAML file: `redocly build-docs test-petstore.yaml`
+5. Rename the HTML output to index.html: `mv redoc-static.html index.html`
 6. Comment and push your changes to the repository. GitHub Actions automatically builds a website.
