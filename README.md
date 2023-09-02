@@ -16,7 +16,7 @@ Test GitHub repository to demo docs-as-code workflows with OpenAPI documentation
 - Using the redocly command: https://redocly.com/docs/cli/commands/build-docs/#usage
 - Test petstore.yaml file: https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml
 
-## Steps to build your docs-as-code workflow
+## Steps to build your workflow
 1. Create a new GitHub repository.
 2. Create a test-petstore.yaml file.
 3. Clone the repository in VSCode.
