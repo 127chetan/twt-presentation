@@ -1,7 +1,7 @@
 openapi: "3.0.0"
 info:
   version: 1.0.0
-  title: TWT Petstore
+  title: Swagger Petstore
   license:
     name: MIT
 servers:
@@ -9,10 +9,10 @@ servers:
 paths:
   /pets:
     get:
-      summary: List all technical writers
+      summary: List all pets
       operationId: listPets
       tags:
-        - TW
+        - pets
       parameters:
         - name: limit
           in: query
