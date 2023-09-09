@@ -9,6 +9,10 @@ Test GitHub repository to demo docs-as-code workflows with OpenAPI documentation
 - Starter OpenAPI spec for testing: https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml
 
 ## Steps to set up your own repository and GitHub Actions
+### Shortcut
+Clone this repository and use.
+
+### Set it up for yourself
 1. Create a new GitHub repository.
 2. Create a test-petstore.yaml file in the repository. Copy the contents from https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml as an example.
 3. Set up GitHub Actions in the repository.
