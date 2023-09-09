@@ -19,3 +19,5 @@ Test GitHub repository to demo docs-as-code workflows with OpenAPI documentation
     5. Click **Commit changes**.
     6. Copy the static.yml contents from this twt-presentation repository to your repository and commit your changes.
 4. Clone the repository in VSCode. Each time you save changes to your OpenAPI yaml file and push your changes to GitHub, GitHub Actions automatically builds API documentation output.
+
+Here's a video demo for how a docs-as-code workflow can look like: https://drive.google.com/file/d/1n2Om__i8TUHPIIOUOe81vC9b4K-lZ1f3/view?usp=sharing
